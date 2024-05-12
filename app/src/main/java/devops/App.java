@@ -38,7 +38,7 @@ public class App {
 
 
         // PDF creation
-        File fontFile = new File("C:\\Temp\\DejaVuSansMono.TTF"); // Change to the path of your new font
+        File fontFile = new File("DejaVuSansMono.TTF"); // Change to the path of your new font
         PDDocument document = new PDDocument();
         PDType0Font font = PDType0Font.load(document, fontFile);
         
